@@ -1,7 +1,7 @@
 # LED Acrylic Lamp Project
 Welcome to the LED Acrylic Lamp project repository! This project features Arduino code optimized for an Attiny412 microcontroller along with a WS2812 LED strip, creating a mesmerizing LED acrylic lamp.
 
-[BILD]
+![Example picture](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/example.jpeg?raw=true)
 
 ## Features
 - **Attiny412 Optimization**: The Arduino code is tailored specifically for the Attiny412 microcontroller, ensuring efficient performance.
