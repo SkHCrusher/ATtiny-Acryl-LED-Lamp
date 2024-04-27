@@ -1,5 +1,5 @@
 # LED Acrylic Lamp Project
-Welcome to the LED Acrylic Lamp project repository! This project features Arduino code optimized for an Attiny412 microcontroller along with a WS2812 LED strip, creating a mesmerizing LED acrylic lamp.
+This project is an RGB LED lamp made of acrylic. The base is 3D-printed, the acrylic motif is laser-cut. Inside, I designed my own circuit board that uses an ATtiny412 and two buttons to control the lamp. There is a USB-C port for connection.
 
 ![Example picture](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/example.jpeg?raw=true)
 
@@ -30,7 +30,7 @@ IP30 is sufficient, as we are indoors here.
 
 ### Print base using 3D printing
 I have published the 3D print files on Printables.com. In the current version there is a base for an 8cm and a 15cm wide acrylic disk.
-Download the files and print them out on your printer. I used the Galaxy Black PLA material from Prusa here.
+Download the files and print them out on your printer. I used the Galaxy Black PLA material from Prusa here: [https://www.printables.com/model/859290-rgb-led-acrylic-lamp](https://www.printables.com/model/859290-rgb-led-acrylic-lamp)
 
 ### Acrylic pane lasering
 Choose a motif for your acrylic pane and laser it.
@@ -67,29 +67,30 @@ After the circuit board has been recorded, you can assemble your lamp in the fol
 #### Gluing in LED strips
 The LED strip is glued onto the mounting plate in the desired length.
 The 8cm version has 5 LEDs, the 15cm version has 9 LEDs.
-
-[Bild]
+![Gluing in LED strips](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/glue_stripe.jpeg?raw=true)
 
 #### Connect circuit board and LED strip via cable
 The LED strip must be connected to the circuit board so that it can also receive power and data. I have used a 3-pole LED cable for this.
 The cable length for the 8cm version is 9cm and for the 15cm version 16cm.
 Pay attention to the correct polarity when soldering.
-
-[BILD]
+![Connect circuit board and LED strip via cable](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/connect_board_strip.jpeg?raw=true)
 
 #### Secure the circuit board
 To prevent the circuit board from flying around loosely in the housing, it is fixed in place with a 3D printed part. 
 The 3D printed part also supports and secures the buttons before they are pressed into the housing.
 Fitted the block with an M2 screw with a length of 6mm.
-[Bild]
+![Secure the circuit board](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/secure_board.jpeg?raw=true)
 
 #### Plug the housing together
 At the end, the housing can simply be plugged together in the correct order. 
 Thanks to the lugs in the 3D print, the lid holds securely to the base and does not slip away easily.
+| ![Plug the housing together step 1](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/plug_housing_together.jpeg?raw=true) | ![Plug the housing together step 2](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/plug_housing_together_finish.jpeg?raw=true) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 #### Insert the acrylic panel
 Finally, the acrylic panel can be carefully inserted into the slot at the top.
 If the disk cannot be inserted, simply grind away some material on the sides and try again.
+![Insert the acrylic panel](https://github.com/SkHCrusher/ATtiny-Acryl-LED-Lamp/blob/main/miscellaneous/screenshots/insert_acrylic.jpeg?raw=true)
 
 ## Usage
 As soon as you connect the Lample via USB-C cable, it lights up immediately.
